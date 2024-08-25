@@ -1,6 +1,6 @@
 
 import './App.css'
-import QueryForm from './components/QueryForm/QueryForm'
+import Form from './components/Form/Form'
 import PostList from "./components/PostList/PostList"
 import ClearButton from "./components/ClearButton/ClearButton"
 import Title from "./components/Title/Title"
@@ -12,7 +12,7 @@ function App() {
   
       <div className='app'>
         <Title/>
-    <QueryForm/>
+    <Form/>
     <PostList/>
     <ClearButton/>
       </div>
